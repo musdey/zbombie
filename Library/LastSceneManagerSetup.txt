@@ -1,7 +1,7 @@
 sceneSetups:
-- path: Assets/FireExplosionVFX/Scenes/FxScene.unity
-  isLoaded: 0
-  isActive: 0
-- path: Assets/MenuScene.unity
+- path: Assets/GameScene.unity
   isLoaded: 1
   isActive: 1
+- path: Assets/MenuScene1.unity
+  isLoaded: 0
+  isActive: 0

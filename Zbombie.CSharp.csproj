@@ -69,10 +69,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\AttackFinished.cs" />
     <Compile Include="Assets\FireExplosionVFX\Scripts\FxSplash.cs" />
     <Compile Include="Assets\FireExplosionVFX\Scripts\LaunchEffect.cs" />
-    <Compile Include="Assets\GameScript.cs" />
-    <Compile Include="Assets\GrenadeScript.cs" />
     <Compile Include="Assets\PyroParticles\Prefab\Script\FireBaseScript.cs" />
     <Compile Include="Assets\PyroParticles\Prefab\Script\FireCollisionForwardScript.cs" />
     <Compile Include="Assets\PyroParticles\Prefab\Script\FireConstantBaseScript.cs" />
@@ -80,6 +79,11 @@
     <Compile Include="Assets\PyroParticles\Prefab\Script\FireProjectileScript.cs" />
     <Compile Include="Assets\PyroParticles\Prefab\Script\MeteorSwarmScript.cs" />
     <Compile Include="Assets\PyroParticles\Prefab\Script\SingleLineAttribute.cs" />
+    <Compile Include="Assets\Scripts\GameScript.cs" />
+    <Compile Include="Assets\Scripts\GrenadeScript.cs" />
+    <Compile Include="Assets\Scripts\MenuScript.cs" />
+    <Compile Include="Assets\Scripts\PanScript.cs" />
+    <Compile Include="Assets\Scripts\ZombieMovementScript.cs" />
     <Compile Include="Assets\TouchScript\Examples\Camera\Scripts\CameraController.cs" />
     <Compile Include="Assets\TouchScript\Examples\Checkers\Scripts\Board.cs" />
     <Compile Include="Assets\TouchScript\Examples\Checkers\Scripts\Exclusive.cs" />
@@ -172,7 +176,6 @@
     <Compile Include="Assets\TouchScript\Scripts\Utils\TimedSequence.cs" />
     <Compile Include="Assets\TouchScript\Scripts\Utils\TouchUtils.cs" />
     <Compile Include="Assets\TouchScript\Scripts\Utils\TransformUtils.cs" />
-    <Compile Include="Assets\ZombieMovementScript.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\PyroParticles\Prefab\Materials\AdditiveTintable.shader" />
